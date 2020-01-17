@@ -1,0 +1,115 @@
+Body {
+  background-image: url(background2.jpg);
+  width: 1000px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+td {
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* Header principal photo+coordonnées */
+.header {
+  background-color: #00001a;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Header left (photo) */
+.header-left {
+  margin-top: 12px;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+/* Header center (coordonnées) */
+.header-center {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 110px;
+  font-size: 1.2em;
+}
+
+/* Header right */
+.header-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-top: 70px;
+}
+
+/* Main principal */
+.main {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Main right */
+.main-right {
+  width: 75%;
+}
+
+/* Partie formation */
+.main-right-formation {
+  background-color: rgba(77, 0, 23, 0.8);
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Partie expérience */
+.main-right-experience {
+  background-color: rgba(77, 0, 23, 0.8);
+  margin-top: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Citation */
+.citation {
+  background-color: rgba(230, 0, 76, 0.8);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+}
+
+/* Main-left */
+.main-left {
+  background-color: rgba(26, 0, 8, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 25%;
+}
